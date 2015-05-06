@@ -1,0 +1,151 @@
+body{
+	width 				:100%;
+	margin				:0 auto;
+	padding 			:0;	
+}
+
+#formDiv{
+	margin 				:0 auto;
+	width 				:400px;
+	height 				:80px;
+	margin-top 			:50px;
+	position 			:relative;
+	background-color 	:white;
+
+}
+
+#btn-submit{
+	width 				:20%;
+	height 				:40px;
+	position 			:absolute;
+	right 				:20px;
+	top 				:15px;
+
+}
+
+.btn{
+	cursor				:pointer;
+	background-color 	:transparent;
+	border 				:0;
+	border 				:1px solid #0099CC;
+	margin 				:5px;
+	padding 			:2px;
+	color 				:#0099CC;
+}
+
+.btn:hover{
+	cursor				:pointer;
+}
+
+.search-input-txt{
+	width 				:60%;
+	height 				:40px;
+	position 			:absolute;
+	left 				:20px;
+	bottom 				:20px;
+	top 				:20px;
+	padding 			:0;
+	padding-left 		:5px;
+	margin 				:0;
+	background 			:transparent;
+	border 				:0;
+	border-bottom 		:1px solid #0099CC;
+	font-size 			:1.4em;
+
+
+}
+
+.medium-image{
+	width				:4%;
+	height 				:auto;
+	margin-bottom 		:-300px;
+	margin-left 		:2px;
+	margin-right 		:2px;
+	border 				:2px solid black;
+}
+
+.medium-image:hover{
+	width				:10%;
+	cursor				:pointer;
+}
+
+.addImg{
+	width				:4%;
+	height 				:auto;
+	margin-bottom 		:-200px;
+	margin-left 		:2px;
+	margin-right 		:2px;
+	border 				:3px solid black;
+
+
+	-webkit-transition 	: margin-bottom 0.8s;
+	-moz-transition 	: margin-bottom 0.8s;
+	transition 			: margin-bottom 0.8s;
+ 
+}
+
+.addImg:hover{
+	cursor				:pointer;
+}
+
+#imageDiv{
+	width 				:80%;
+	margin-left 		:17%;
+	margin-top 			:50px;
+	z-index 			:980 !important;
+}
+
+#imageDiv img{
+	z-index 			:990 !important;
+}
+	
+
+#GalleryButtonDiv{
+	position 			:absolute;
+	width 				:100%;
+	text-align 			:center;
+}
+
+
+
+#GalleryDiv{
+	position 			:absolute;
+	width 				:33%;
+	margin-left 		:33%;
+	margin-top 			:200px;
+	padding 			:20px;
+	z-index 			:-2;
+}
+
+#GalleryDiv img{
+	opacity 			:0.3;
+	width 				:100px;
+	height 				:auto;
+	border 				:0;
+	margin 				:2px;
+	z-index 			:-1;
+}
+
+.show-gallery-pic img{
+	opacity 			:1 !important;
+	-webkit-transition	: opacity 0.8s;
+	-moz-transition 	: opacity 0.8s;
+	transition 			: opacity 0.8s;
+}
+
+.show-gallery-pic img:hover{
+	cursor				:pointer;
+}
+
+.expand-single-gallery-pic{
+
+	width 				:40% !important;
+	height 				:auto;
+	cursor				:pointer;
+	z-index 			:999 !important;
+
+	-webkit-transition	: width 0.2s !important;
+	-moz-transition 	: width 0.2s !important;
+	transition 			: width 0.2s !important;
+}
+
