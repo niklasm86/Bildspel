@@ -25,12 +25,8 @@ body{
 
 .btn{
 	cursor				:pointer;
-	background-color 	:transparent;
-	border 				:0;
-	border 				:1px solid #0099CC;
 	margin 				:5px;
-	padding 			:2px;
-	color 				:#0099CC;
+	padding 			:5px;
 }
 
 .btn:hover{
@@ -47,10 +43,7 @@ body{
 	padding 			:0;
 	padding-left 		:5px;
 	margin 				:0;
-	background 			:transparent;
-	border 				:0;
-	border-bottom 		:1px solid #0099CC;
-	font-size 			:1.4em;
+	font-size 			:1em;
 
 
 }
