@@ -1,9 +1,25 @@
+/*
+* CSS
+* Niklas Magnusson, 8/6 2015, niklasmagnusson123@gmail.com
+* Flickr Picture Game arbetsprov
+*
+*
+*
+*/
+/*
+* BODY
+*/
 body{
 	width 				:100%;
 	margin				:0 auto;
 	padding 			:0;	
 }
 
+/* 
+////////////////////////////
+////////////// searchform styles
+////////////////////////////
+*/
 #formDiv{
 	margin 				:0 auto;
 	width 				:400px;
@@ -14,6 +30,26 @@ body{
 
 }
 
+.search-input-txt{
+	width 				:60%;
+	height 				:40px;
+	position 			:absolute;
+	left 				:20px;
+	bottom 				:20px;
+	top 				:20px;
+	padding 			:0;
+	padding-left 		:5px;
+	margin 				:0;
+	font-size 			:1em;
+
+
+}
+
+/* 
+////////////////////////////
+////////////// Button styles
+////////////////////////////
+*/
 #btn-submit{
 	width 				:20%;
 	height 				:40px;
@@ -33,19 +69,16 @@ body{
 	cursor				:pointer;
 }
 
-.search-input-txt{
-	width 				:60%;
-	height 				:40px;
-	position 			:absolute;
-	left 				:20px;
-	bottom 				:20px;
-	top 				:20px;
-	padding 			:0;
-	padding-left 		:5px;
-	margin 				:0;
-	font-size 			:1em;
-
-
+/* 
+////////////////////////////
+////////////// Medium image styles (standard image size for the gallery)
+////////////////////////////
+*/
+#imageDiv{
+	width 				:80%;
+	margin-left 		:17%;
+	margin-top 			:50px;
+	z-index 			:980 !important;
 }
 
 .medium-image{
@@ -61,6 +94,12 @@ body{
 	width				:10%;
 	cursor				:pointer;
 }
+
+/* 
+////////////////////////////
+////////////// choosen picutre styles
+////////////////////////////
+*/
 
 .addImg{
 	width				:4%;
@@ -81,24 +120,21 @@ body{
 	cursor				:pointer;
 }
 
-#imageDiv{
-	width 				:80%;
-	margin-left 		:17%;
-	margin-top 			:50px;
-	z-index 			:980 !important;
-}
-
 #imageDiv img{
 	z-index 			:990 !important;
 }
 	
+/* 
+////////////////////////////
+////////////// Gallery styles
+////////////////////////////
+*/
 
 #GalleryButtonDiv{
 	position 			:absolute;
 	width 				:100%;
 	text-align 			:center;
 }
-
 
 
 #GalleryDiv{

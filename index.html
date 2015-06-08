@@ -1,38 +1,42 @@
 <!DOCTYPE html>
+<!--
+// Niklas Magnusson, 8/6 2015, niklasmagnusson123@gmail.com
+// Flickr Picture Game arbetsprov
+//
+-->
 <html>
 <head>
-<title>Search Flickr Pics</title>
+<title>Search Flickr Pictures</title>
 <meta charset="utf-8">
 <!-- STYLESHEET IMPORTS-->
 <link rel="stylesheet" type="text/css" href="style.css">
 <!--JAVASCRIPT IMPORTS-->
-<script src="script.js"></script>
 <script src="FlickrRequest.js"></script>
+<script src="script.js"></script>
+<!-- HEAD -->
 </head>
+<!-- BODY -->
 <body>
-
 	<div id="GalleryDiv" class="Gallery">
-		
-	</div>
+	</div><!--end of -->
 
 	<div id="formDiv" class="center" onsubmit="return false;"/>
 		<form id="inputTextForm">
 			<input type="text" class="search-input-txt" id="search-txt" placeholder="Sök efter en tagg" autofocus="autofocus"/> 
-		</form>
+		</form><!-- end of form -->
 		<button id="btn-submit" class="btn" type="submit">Sök</button>
-		
-	</div>
+	</div><!-- end of formDiv -->
 
 	<div id="GalleryButtonDiv">
 		<button id="btn-add-gallery" class="btn" type="submit">Add to gallery</button>
 		<button id="btn-play-gallery" class="btn" type="submit">Show Gallery</button>
 		<button id="btn-clear-gallery" class="btn" type="submit">Clear Gallery</button>
-	</div>
+	</div><!-- end of GalleryButtonDiv -->
 
 	<div id="imageDiv">
-	</div>
+	</div><!-- end of imageDiv -->
 
 
-</body>
+</body> <!-- End of Body -->
 </html>
 
